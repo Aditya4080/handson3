@@ -1,0 +1,80 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="dashboard.login" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title> Sign Up </title>
+    <style>
+       body {
+           background-image: url('image/photo-1448375240586-882707db888b.jpg');
+           
+       }
+       .ad{
+           color:white;
+       }
+   </style>
+</head>
+<body>
+    
+        <form action="HtmlPage1.html"
+          style="border:1px solid #808080"  runat="server">
+        <div class=" cointainer">
+            <h2>SIGN UP</h2>
+            <p>PLZ FILL IN THIS FORM TO REGISTER </p>
+            <hr />
+
+
+            <label for=" email">
+                <b>email </b>&nbsp;&nbsp;&nbsp;&nbsp; 
+            </label>
+            <input type=" text"
+                   placeholder="enter email"
+                   name="email" /> <br /> <br/> <br/>  
+
+
+            <label for="password">
+                <b> password </b>&nbsp;&nbsp;&nbsp;&nbsp; 
+            </label>
+            <input type="password"
+                   placeholder="enter  password"
+                   name="psw" /><br /> <br /> <br /> 
+
+
+
+          
+
+
+            <div class="clearfix">
+                <button type="button"
+                        class="cancel button">
+                    cancel
+                </button>
+                <button type="submit"
+                        class="signupbutton">
+                    sign up
+                </button>
+
+            </div>
+        </div>
+
+
+            <%--<asp:Menu ID="Menu1" runat="server" BackColor="Peru" Font-Bold="True" Font-Names="Franklin Gothic Demi"
+            ForeColor="WhiteSmoke" Height="24px" Orientation="Horizontal" Style="z-index: 101;
+            left: 0px; position: absolute; top: 104px" Width="960px">
+            <Items>
+            <asp:MenuItem Text="Home"></asp:MenuItem>
+           
+            <asp:MenuItem Text="Student Details" NavigateUrl="~/StudentDetailsAdmin.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Exam Details" NavigateUrl="~/ExamDetailsdmin.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Instructor Details" NavigateUrl="~/InstructorDetailsAdmin.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Log Out" NavigateUrl="~/home.aspx" ></asp:MenuItem>
+            
+            </Items>
+                    </asp:Menu>--%>
+    </form>
+
+        
+    
+</body>
+</html>
